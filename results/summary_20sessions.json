@@ -1,0 +1,72 @@
+{
+  "config": {
+    "readers": 300,
+    "sessions": 20,
+    "seeds": 20
+  },
+  "results": [
+    {
+      "strategy": "Fixed default",
+      "cumulative_regret": 5.002745216293961,
+      "cumulative_regret_sd": 0.16978584199651842,
+      "first5_success": 0.453977128837095,
+      "last5_success": 0.453977128837095,
+      "last5_near_best": 0.03866666666666667,
+      "best_possible_success": 0.7041143896517932
+    },
+    {
+      "strategy": "Random",
+      "cumulative_regret": 4.253192546015414,
+      "cumulative_regret_sd": 0.09188611607138034,
+      "first5_success": 0.49053426980524467,
+      "last5_success": 0.49165343293436803,
+      "last5_near_best": 0.07776666666666666,
+      "best_possible_success": 0.7041143896517932
+    },
+    {
+      "strategy": "Epsilon-greedy (per reader)",
+      "cumulative_regret": 3.276739479813943,
+      "cumulative_regret_sd": 0.09505126261747951,
+      "first5_success": 0.5125403161867604,
+      "last5_success": 0.5599267916740966,
+      "last5_near_best": 0.15246666666666667,
+      "best_possible_success": 0.7041143896517932
+    },
+    {
+      "strategy": "UCB1 (per reader)",
+      "cumulative_regret": 4.413537618511344,
+      "cumulative_regret_sd": 0.0955215126001877,
+      "first5_success": 0.4514851860241596,
+      "last5_success": 0.529415518382217,
+      "last5_near_best": 0.11,
+      "best_possible_success": 0.7041143896517932
+    },
+    {
+      "strategy": "Thompson sampling (per reader)",
+      "cumulative_regret": 4.024791126038599,
+      "cumulative_regret_sd": 0.08259102348314631,
+      "first5_success": 0.49243007493343177,
+      "last5_success": 0.5137814935768387,
+      "last5_near_best": 0.09626666666666667,
+      "best_possible_success": 0.7041143896517932
+    },
+    {
+      "strategy": "Contextual Thompson (shared)",
+      "cumulative_regret": 2.1810277276086403,
+      "cumulative_regret_sd": 0.14759320772766138,
+      "first5_success": 0.5927061625239055,
+      "last5_success": 0.5975487241372477,
+      "last5_near_best": 0.24996666666666667,
+      "best_possible_success": 0.7041143896517932
+    },
+    {
+      "strategy": "Hierarchical Thompson (population + personal)",
+      "cumulative_regret": 2.229132593380743,
+      "cumulative_regret_sd": 0.17400178661766685,
+      "first5_success": 0.5876628829962094,
+      "last5_success": 0.5972993592940652,
+      "last5_near_best": 0.26043333333333335,
+      "best_possible_success": 0.7041143896517932
+    }
+  ]
+}
