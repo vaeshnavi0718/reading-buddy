@@ -1,5 +1,7 @@
 # Reading Buddy
 
+**[Try the interactive demo →](https://vaeshnavi0718.github.io/reading-buddy/)** Watch the bandit learn a simulated reader's best settings, or be the reader yourself.
+
 Four years ago I tried to build a learning buddy for people with dyslexia: take a photo of a page, and it helps you read it. I couldn't finish it. This is the rebuild, starting with the part I find most interesting: **learning which reading settings work best for each person.**
 
 Readers differ. A dyslexia-friendly font, wider spacing, shorter chunks of text or slower read-aloud can help one reader and slow down another. Most reading apps show everyone the same defaults. Reading Buddy treats choosing settings as a **contextual bandit** problem: try settings, observe whether the reader understood the text, and shift toward what works, without wasting many sessions on bad settings.
@@ -93,6 +95,7 @@ buddy/strategies.py   the 7 strategies
 buddy/experiment.py   runs strategies on identical readers, computes regret
 run.py                experiment, results table, plots
 tests/                strategies learn an obvious best setting, beat the default, regret never negative
+docs/                 the interactive demo (GitHub Pages): a browser port of the simulator and Thompson sampling
 ```
 
 ## What's next
