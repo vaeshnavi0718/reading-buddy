@@ -1,5 +1,7 @@
 # Reading Buddy
 
+[![CI](https://github.com/vaeshnavi0718/reading-buddy/actions/workflows/ci.yml/badge.svg)](https://github.com/vaeshnavi0718/reading-buddy/actions/workflows/ci.yml)
+
 **[Try the interactive demo →](https://vaeshnavi0718.github.io/reading-buddy/)** Watch the bandit learn a simulated reader's best settings, or be the reader yourself.
 
 Four years ago I tried to build a learning buddy for people with dyslexia: take a photo of a page, and it helps you read it. I couldn't finish it. This is the rebuild, starting with the part I find most interesting: **learning which reading settings work best for each person.**
